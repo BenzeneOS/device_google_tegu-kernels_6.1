@@ -1,5 +1,11 @@
 kernel/drivers/watchdog/softdog.ko
 kernel/drivers/perf/arm_dsu_pmu.ko
+kernel/drivers/hwtracing/coresight/coresight.ko
+kernel/drivers/hwtracing/coresight/coresight-tmc.ko
+kernel/drivers/hwtracing/coresight/coresight-funnel.ko
+kernel/drivers/hwtracing/coresight/coresight-replicator.ko
+kernel/drivers/hwtracing/coresight/coresight-etm4x.ko
+kernel/drivers/hwtracing/coresight/coresight-trbe.ko
 kernel/net/wireless/cfg80211.ko
 kernel/net/mac80211/mac80211.ko
 extra/private/google-modules/soc/gs/drivers/pinctrl/pinctrl-slg51002.ko
@@ -27,10 +33,7 @@ extra/private/google-modules/aoc/alsa/aoc_alsa_dev.ko
 extra/private/google-modules/bms/max77729_uic.ko
 extra/private/google-modules/bms/max77729_charger.ko
 extra/private/google-modules/bms/max77779-fwupdate.ko
-extra/private/google-modules/bms/google-wlc.ko
-extra/private/google-modules/bms/ln8282_regulator.ko
 extra/private/google-modules/bms/hl7132.ko
-extra/private/google-modules/bms/ggauge_health_monitor.ko
 extra/private/google-modules/display/samsung/panel/panel-boe-nt37290.ko
 extra/private/google-modules/edgetpu/rio/drivers/edgetpu/rio.ko
 extra/private/google-modules/fingerprint/goodix/fps_touch_handler/fps_touch_handler.ko
